@@ -1,0 +1,37 @@
+Requirement Analysis – Educational Management System
+
+Objective:
+To identify all the functional and non-functional needs of the system to ensure it meets user expectations.
+
+⸻
+
+1. Functional Requirements
+	•	Admissions Management: Add, update, and track student admissions digitally.
+	•	Student Progress Tracking: Record grades, attendance, and academic performance.
+	•	Staff Management: Manage teacher and staff details, roles, and schedules.
+	•	Workflow Automation: Approvals, notifications, and report generation automatically.
+	•	Communication: Messaging and notifications between students, teachers, and administrators.
+	•	Reports & Analytics: Generate reports for students, staff, and overall performance.
+
+⸻
+
+2. Non-Functional Requirements
+	•	Performance: Fast response for queries and operations.
+	•	Scalability: Handle growing numbers of users and data.
+	•	Security: Role-based access and data privacy.
+	•	Usability: User-friendly interface for all types of users.
+	•	Reliability: System available 24/7 with minimal downtime.
+
+⸻
+
+3. User Requirements
+	•	Students: Access grades, submit forms, view notifications.
+	•	Teachers: Manage student progress, mark attendance, send notifications.
+	•	Administrators: Approve admissions, manage staff, generate reports.
+
+⸻
+
+4. System Requirements
+	•	Hardware: Server with sufficient storage, memory, and CPU.
+	•	Software: ServiceNow platform, database (MySQL/PostgreSQL), web server (PHP/Node.js).
+	•	Tools: Workflow automation tools, reporting modules, monitoring tools.
