@@ -1,0 +1,83 @@
+Project Design Phase – Educational Management System
+
+Objective:
+To plan and structure the system in a way that ensures smooth development, easy maintenance, and scalability.
+
+⸻
+
+1. Requirement Analysis (Small Steps)
+	•	List all functional requirements: admissions, student tracking, staff management, communication.
+	•	List non-functional requirements: performance, security, usability, scalability.
+	•	Identify users: students, teachers, administrators.
+	•	Document inputs, outputs, and workflows for each module.
+
+⸻
+
+2. System Architecture Design
+	•	Decide on architecture type: Client-Server / Web-Based / Service-Oriented.
+	•	Identify main modules:
+	1.	Admissions Module
+	2.	Student Progress Module
+	3.	Staff Management Module
+	4.	Workflow Automation Module
+	5.	Communication Module
+	6.	Reports & Analytics Module
+	•	Define how modules will interact with the database and each other.
+
+⸻
+
+3. Database Design
+	•	Identify all necessary tables: Students, Staff, Courses, Attendance, Notifications, Reports.
+	•	Define relationships (ER diagram) between tables.
+	•	Determine primary keys, foreign keys, and constraints.
+	•	Prepare sample data for testing.
+
+⸻
+
+4. User Interface (UI) Design
+	•	Create wireframes for each module/page: login, dashboard, admissions form, report view.
+	•	Decide layout, navigation flow, and color scheme.
+	•	Ensure the UI is user-friendly and responsive.
+
+⸻
+
+5. Workflow & Process Design
+	•	Map step-by-step workflows for each module:
+	•	Admission request → Approval → Student registration → Notification.
+	•	Attendance marking → Progress update → Report generation.
+	•	Identify automation opportunities in workflows.
+	•	Ensure smooth communication between modules.
+
+⸻
+
+6. Technology Stack Finalization
+	•	Backend: ServiceNow platform, Node.js / PHP
+	•	Frontend: HTML, CSS, JavaScript
+	•	Database: MySQL / PostgreSQL
+	•	Tools: Workflow automation, reporting modules, dashboards
+
+⸻
+
+7. Security & Access Design
+	•	Define user roles: Admin, Teacher, Student.
+	•	Set permissions for each role.
+	•	Ensure data privacy (e.g., student grades, staff details).
+
+⸻
+
+8. Prototype / Mockup Creation
+	•	Build small prototypes or wireframes for key modules.
+	•	Test usability with sample users.
+	•	Refine design based on feedback.
+
+⸻
+
+9. Documentation
+	•	Document module design, workflows, database schema, and UI wireframes.
+	•	Maintain diagrams: ERD, flowcharts, module interaction diagrams.
+
+⸻
+
+10. Design Approval
+	•	Review design with project stakeholders / mentors.
+	•	Incorporate suggestions and finalize design for development phase.
