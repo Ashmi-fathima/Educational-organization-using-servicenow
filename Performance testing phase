@@ -1,0 +1,64 @@
+Performance Testing Phase Workflow – Educational Management System
+
+Objective:
+To evaluate how efficiently the system performs under different loads and conditions, ensuring that the Educational Management System is reliable, fast, and scalable.
+
+⸻
+
+1. Identify Performance Criteria
+	•	Response Time: Time taken to load pages, submit forms, or retrieve data.
+	•	Throughput: Number of transactions handled per second (e.g., student data retrieval, admission submissions).
+	•	Resource Utilization: CPU, memory, and network usage under load.
+	•	Scalability: System behavior when the number of users increases.
+
+⸻
+
+2. Prepare Test Environment
+	•	Set up a test server similar to the production environment.
+	•	Use a test database with realistic sample data.
+	•	Configure monitoring tools to capture performance metrics.
+
+⸻
+
+3. Define Test Scenarios
+
+Examples of key scenarios for the Educational Management System:
+	1.	Concurrent Logins: Multiple students, teachers, and administrators logging in simultaneously.
+	2.	Data Retrieval: Fetching student records, academic progress, and reports.
+	3.	Form Submission: Admissions, attendance, and feedback forms submitted simultaneously.
+	4.	Workflow Automation: Triggering notifications, approvals, and report generation under load.
+
+⸻
+
+4. Execute Performance Tests
+	•	Use tools like JMeter, LoadRunner, or Apache Benchmark.
+	•	Simulate real-world scenarios with multiple users.
+	•	Gradually increase load to measure system response and stability.
+
+⸻
+
+5. Monitor & Collect Metrics
+	•	Response Time: Ensure it meets acceptable limits.
+	•	Throughput: Check if the system can handle expected user load.
+	•	Error Rates: Record failures or timeouts.
+	•	Resource Utilization: Monitor CPU, memory, and database performance.
+
+⸻
+
+6. Analyze Results
+	•	Compare results against expected performance criteria.
+	•	Identify bottlenecks in server, database, or application logic.
+	•	Highlight scenarios where performance degrades under load.
+
+⸻
+
+7. Optimize & Retest
+	•	Improve code, database queries, or server configuration based on findings.
+	•	Retest to verify improvements.
+	•	Repeat until performance is within acceptable limits.
+
+⸻
+
+8. Document Findings
+	•	Summarize test scenarios, results, and optimizations.
+	•	Provide performance graphs, tables, and recommendations for future scalability.
